@@ -75,7 +75,7 @@ else if(pets == allowedPets){
   console.log(petStatus = "I have enough pets")
 }
 else if(pets > allowedPets) {
-  console.log("Oh no, I have too many pets!")
+  console.log(petStatus = "Oh no, I have too many pets!")
 }
 
 // STRETCH GOALS:
