@@ -34,7 +34,7 @@ console.log(pets);
 // 9 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
 let friendsPets = 1;
 // 10 - Add two pets to your `pets` variable
-
+pets = 12;
 // 11 - Create a constant variable called `allowedPets` and set it to a number value of your choice
 let allowedPets = 2;
 // 12 - Create a variable called `result`. Create a conditional:
@@ -85,6 +85,17 @@ else if(pets > allowedPets) {
 //      assigns the highest value to `mostPets`. There's several possibilities --
 //      be sure to think through all the scenarios. 
 //      console.log `mostPets` after the conditional has run.
+let mostPets;
+
+if(pets > friendsPets){
+  console.log(mostPets = "I have more pets");
+}
+else if(pets < friendsPets){
+  console.log(mostPets = "My Friend has more pets");
+}
+else if(pets == friendsPets){
+  console.log(mostPets = "We have the same number of pets")
+}
 
 // 16 - Make a variable called `luckyResult`
 //      Write a *switch* statement that sets `luckyResult` to:
@@ -94,11 +105,33 @@ else if(pets > allowedPets) {
 //      Otherwise, "Luck is what happens when preparation meets opportunity"
 //      You'll need to research how to use switch statements!
 //      console.log `luckyResult` after the conditional has run.
+let luckyResult;
+
+switch(luckyResult){
+  case luckyNumber == 1:
+    console.log("First is the Worst");
+    break;
+  case luckyNumber == 2:
+    console.log("Second is the best");
+    break;
+  case luckyNumber == 3:
+    console.log("Third is the one with the polka dot dress");
+    break;
+  default:
+    console.log("Luck is what happens when preparation meets opportunity");
+    break;
+}
 
 // 17 -- Rewrite question 12 with a `ternary` operator. You'll need to do research!
+        // 12 - Create a variable called `result`. Create a conditional:
+        //      if adventurous is true, set `result` to be "Adventures are great!", 
+        //      if it's not true,  set `result` to be "How about we stay home?"
+        //      Console log the value of `result`
 
 
-
+  // [if statement] ? [result] : [otherwise this result will happen]
+  result = adventurous == true ? "Adventures are great!" : "How about we stay home?";
+  console.log(result);
 
 
 
