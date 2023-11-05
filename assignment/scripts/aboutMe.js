@@ -34,7 +34,7 @@ console.log(pets);
 // 9 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
 let friendsPets = 1;
 // 10 - Add two pets to your `pets` variable
-pets = 12;
+pets = pets + 2;
 // 11 - Create a constant variable called `allowedPets` and set it to a number value of your choice
 let allowedPets = 2;
 // 12 - Create a variable called `result`. Create a conditional:
@@ -71,11 +71,11 @@ let petStatus;
 if(pets < allowedPets){
   console.log(petStatus = "I can have more pets")
 }
-else if(pets == allowedPets){
-  console.log(petStatus = "I have enough pets")
-}
 else if(pets > allowedPets) {
   console.log(petStatus = "Oh no, I have too many pets!")
+}
+else{
+  console.log(petStatus = "I have enough pets")
 }
 
 // STRETCH GOALS:
@@ -88,13 +88,13 @@ else if(pets > allowedPets) {
 let mostPets;
 
 if(pets > friendsPets){
-  console.log(mostPets = "I have more pets");
+  console.log(mostPets = pets);
 }
 else if(pets < friendsPets){
-  console.log(mostPets = "My Friend has more pets");
+  console.log(mostPets = friendsPets);
 }
 else if(pets == friendsPets){
-  console.log(mostPets = "We have the same number of pets")
+  console.log(mostPets = pets)
 }
 
 // 16 - Make a variable called `luckyResult`
@@ -107,18 +107,18 @@ else if(pets == friendsPets){
 //      console.log `luckyResult` after the conditional has run.
 let luckyResult;
 
-switch(luckyResult){
-  case luckyNumber == 1:
-    console.log("First is the Worst");
+switch(luckyNumber){
+  case 1:
+    console.log(luckyResult = "First is the Worst");
     break;
-  case luckyNumber == 2:
-    console.log("Second is the best");
+  case 2:
+    console.log(luckyResult = "Second is the best");
     break;
-  case luckyNumber == 3:
-    console.log("Third is the one with the polka dot dress");
+  case 3:
+    console.log(luckyResult = "Third is the one with the polka dot dress");
     break;
   default:
-    console.log("Luck is what happens when preparation meets opportunity");
+    console.log(luckyResult = "Luck is what happens when preparation meets opportunity");
     break;
 }
 
